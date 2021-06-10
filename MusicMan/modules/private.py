@@ -40,7 +40,7 @@ Saya Memiliki Banyak Fitur Praktis Seperti :
 ❃ Managed With ❤ By {OWNER}
 ❃ Thanks To [Risman](https://t.me/mrismanaziz)
 ━━━━━━━━━━━━━━━
-Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
+Ingin Menambahkan Saya ke Grup Anda? Atau Tambahkan Saya Jadi Pacar? Tambahkan Saya Ke Group Anda!
 </b>""",
 
 # Edit Yang Perlu Lu ganti 
@@ -148,7 +148,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "📜 Cara Menggunakan BOT 📜", url="https://t.me/Lunatic0de/20"
+                        "📜 Cara Menggunakan BOT 📜", url="https://t.me/kutipankitaa/20"
                     )
                 ]
             ]
