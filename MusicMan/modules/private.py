@@ -38,7 +38,7 @@ Saya Memiliki Banyak Fitur Praktis Seperti :
 ┣• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkap saya
 ┗━━━━━━━━━━━━━━
 ❃ Managed With ❤ By {OWNER}
-❃ Thanks To [Risman](https://t.me/mrismanaziz)
+❃ Thanks To [Nishfu](https://t.me/pachemild)
 ━━━━━━━━━━━━━━━
 Ingin Menambahkan Saya ke Grup Anda? Atau Tambahkan Saya Jadi Pacar? Tambahkan Saya Ke Group Anda!
 </b>""",
@@ -53,9 +53,9 @@ Ingin Menambahkan Saya ke Grup Anda? Atau Tambahkan Saya Jadi Pacar? Tambahkan S
                         "➕ Tambahkan saya ke Grup Anda ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "💬 Channel Updates", url=f"https://t.me/{UPDATES_CHANNEL}"), 
+                        "💬 Channel Updates", url=f"https://t.me/kutipankitaa"), 
                     InlineKeyboardButton(
-                        "⛑ Group Support", url=f"https://t.me/{SUPPORT_GROUP}")
+                        "⛑ Group Support", url=f"https://t.me/HappyZgameBot")
                 ],[
                     InlineKeyboardButton(
                         "🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
@@ -95,11 +95,11 @@ def map(pos):
             [InlineKeyboardButton(text = 'Next »', callback_data = "help+2")]
         ]
     elif(pos==len(tr.HELP_MSG)-1):
-        url = f"https://t.me/{SUPPORT_GROUP}"
+        url = f"https://t.me/HappyZgameBot"
         button = [
             [InlineKeyboardButton("➕ Tambahkan saya ke Grup Anda ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-            [InlineKeyboardButton(text = '💬 Channel Updates', url=f"https://t.me/{UPDATES_CHANNEL}"),
-             InlineKeyboardButton(text = '⛑ Group Support', url=f"https://t.me/{SUPPORT_GROUP}")],
+            [InlineKeyboardButton(text = '💬 Channel Updates', url=f"https://t.me/kutipankitaa"),
+             InlineKeyboardButton(text = '⛑ Group Support', url=f"https://t.me/HappyZgameBot")],
             [InlineKeyboardButton(text = '🛠 Source Code 🛠', url=f"https://{SOURCE_CODE}")],
             [InlineKeyboardButton(text = '«', callback_data = f"help+{pos-1}")]
         ]
@@ -167,10 +167,10 @@ async def reload(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Group Support", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "Group Support", url=f"https://t.me/HappyZgameBot"
                     ),
                     InlineKeyboardButton(
-                        "Owner", url=f"https://t.me/mrismanaziz"
+                        "Owner", url=f"https://t.me/pachemild"
                     )
                 ]
             ]
